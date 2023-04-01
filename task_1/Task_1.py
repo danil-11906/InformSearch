@@ -46,7 +46,7 @@ while count < 100:
             myfile.write(text)
             myfile.close()
         with open(fr"index.txt", "a") as myfile:
-            myfile.write(f"{count}.txt -> {current_site}\n")
+            myfile.write(f"{count}) {current_site}\n")
     print(count)
 
 print("Finished")

@@ -75,4 +75,6 @@ class BooleanSearch:
 if __name__ == '__main__':
     bs = BooleanSearch()
     print(bs.__and__(bs.__not__('агроновость'), bs.__or__(bs.__not__('авто'), 'администрация')))
-
+    print(bs.__and__('агроновость' , bs.__and__('авто', 'администрация')))
+    print(bs.__or__('агроновость', bs.__and__(bs.__not__('авто'), 'администрация')))
+    print(bs.__or__(bs.__not__('агроновость'), bs.__or__('авто', bs.__not__('администрация'))))

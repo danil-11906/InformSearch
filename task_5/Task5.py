@@ -18,18 +18,15 @@ class Tokenizer:
         return tokens
     @staticmethod
     def __tokenize(text):
-        """ Делит текст на токены """
         tokens = nltk.word_tokenize(text)
         return tokens
     @staticmethod
     def __lemmatize(tokens):
-        """ С помощью Mystem лемматизирует токены """
         mystem = Mystem()
         tokens = [token.replace(token, ''.join(mystem.lemmatize(token))) for token in tokens]
         return tokens
     @staticmethod
     def __remove_stop_words(tokens):
-        """ Удаляет лишние символы """
         tokens = [re.sub(r"\W", "", token, flags=re.I) for token in tokens]
         stop_words = stopwords.words('russian')
         only_cyrillic_letters = re.compile('[а-яА-Я]')
@@ -68,10 +65,7 @@ class VectorModelSearch:
         query_vector = []
         for token in tokens:
             doc_with_terms_count = len(self.__tf_idf_calculations[f'{token}:'])
-            _, _, tf_idf = TF_IDF_Calculator.calculate(token,
-                                                       tokens,
-                                                       self.__all_docs_count,
-                                                       doc_with_terms_count)
+            _, _, tf_idf = TF_IDF_Calculator.calculate(token, tokens, self.__all_docs_count, doc_with_terms_count)
             query_vector.append(tf_idf)
         distances = {}
         for index in self.__indices.keys():

@@ -66,6 +66,7 @@ class VectorModelSearch:
         for token in tokens:
             doc_with_terms_count = len(self.__tf_idf_calculations[f'{token}:'])
             _, _, tf_idf = TF_IDF_Calculator.calculate(token, tokens, self.__all_docs_count, doc_with_terms_count)
+            print(tf_idf)
             query_vector.append(tf_idf)
         distances = {}
         for index in self.__indices.keys():
@@ -83,14 +84,11 @@ class VectorModelSearch:
 
             if tf_idf < 0.05:
                 continue
-            print(tf_idf)
             url = self.__indices[doc_id]
             print("Index: {}\nURL:{}\nCosine:{}\n".format(doc_id, url, tf_idf))
 
 
 vms = VectorModelSearch()
-vms.search("всевозможный")
+vms.search("всевозможный варианты")
 print("========================================")
 vms.search("варианты работы гормональный")
-print("========================================")
-vms.search("варианты работы")

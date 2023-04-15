@@ -1,0 +1,86 @@
+SEARCHING: всевозможный восемь
+LEMMATIZED: всевозможный восемь
+
+Index: 91
+URL: https://aif.ru/society/science/glonass_na_severnom_polyuse_v_2026_godu_poyavitsya_internet
+Cosine:0.8270165661133284
+
+Index: 95
+URL: https://aif.ru/society/science/v_rf_sozdali_material_pogloshchayushchiy_95_elektromagnitnogo_izlucheniya
+Cosine:0.8270165661133284
+
+Index: 23
+URL: https://kamchatka.aif.ru
+Cosine:0.5621775514676111
+
+Index: 35
+URL: https://murmansk.aif.ru
+Cosine:0.5621775514676111
+
+Index: 45
+URL: https://samara.aif.ru
+Cosine:0.5621775514676111
+
+Index: 52
+URL: https://tula.aif.ru
+Cosine:0.5621775514676111
+
+Index: 55
+URL: https://ul.aif.ru
+Cosine:0.5621775514676111
+
+Index: 89
+URL: https://aif.ru/society/science/uchyonyy_eysmont_rossiya_mogla_postroit_analog_starlink_ranshe_drugih
+Cosine:0.5621775514676111
+
+Index: 90
+URL: https://aif.ru/society/science/na_lune_poyavitsya_sotovaya_svyaz
+Cosine:0.5621775514676111
+
+========================================
+SEARCHING: масштабный поставить разговор
+LEMMATIZED: масштабный поставлять разговор
+
+Index: 75
+URL: https://aif.ru/food/debate
+Cosine:0.7461028726634182
+
+Index: 90
+URL: https://aif.ru/society/science/na_lune_poyavitsya_sotovaya_svyaz
+Cosine:0.6658306859838725
+
+Index: 7
+URL: https://altai.aif.ru
+Cosine:0.4853508164684558
+
+Index: 20
+URL: https://kazan.aif.ru
+Cosine:0.4853508164684558
+
+Index: 78
+URL: https://aif.ru/health/life/trend_4082
+Cosine:0.4853508164684558
+
+Index: 80
+URL: https://aif.ru/dosug
+Cosine:0.4853508164684558
+
+Index: 19
+URL: https://irk.aif.ru
+Cosine:0.455812558357927
+
+Index: 23
+URL: https://kamchatka.aif.ru
+Cosine:0.455812558357927
+
+Index: 66
+URL: https://yar.aif.ru
+Cosine:0.455812558357927
+
+Index: 83
+URL: https://aif.ru/society/science/uchenye_vyyasnili_chto_pomidory_govoryat_no_ne_mogut_ponyat_zachem
+Cosine:0.455812558357927
+
+Index: 91
+URL: https://aif.ru/society/science/glonass_na_severnom_polyuse_v_2026_godu_poyavitsya_internet
+Cosine:0.455812558357927
